@@ -46,7 +46,7 @@ Güncellemeyi yaparken "error 127" hatası alanlar için;
 8-go version
 ```
 
-Bu kodları girdikten sonra yeniden güncelleme komutlarından;
+Bu kodları girdikten sonra yeniden güncelleme komutlarından şunlarla devam ediyoruz;
 
 ```
 1) cd quicksilver

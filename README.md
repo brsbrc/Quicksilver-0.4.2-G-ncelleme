@@ -1,4 +1,4 @@
-# Quicksilver-0.4.2-Güncelleme
+## Quicksilver-0.4.2-Güncelleme
 
 Güncelleme bloğuna geldiyseniz sırasıyla yapabilirsiniz arkadaşlar. Şunu unutmayalım, ilgili blok gelmeden önce yani aceleyle güncellemeyi yapmak kesinlikle size bir artı sağlamaz aksine hata alırsınız. Acele etmemenizi tavsiye ediyorum.
 
@@ -31,7 +31,6 @@ Güncellemeyi yaptıktan sonra teyit etmek için;
 ```
 quicksilverd version
 ```
-
 Yazdıktan sonra gelen çıktı 0.4.2'yse tamamdır.
 
 ## Güncellemeyi yaparken "error 127" hatası alanlar için;

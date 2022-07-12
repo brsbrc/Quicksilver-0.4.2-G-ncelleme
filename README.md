@@ -45,3 +45,15 @@ Güncellemeyi yaparken "error 127" hatası alanlar için;
 7-echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bashrc && . $HOME/.bashrc
 8-go version
 ```
+
+Bu kodları girdikten sonra yeniden güncelleme komutlarından;
+
+```
+1) cd quicksilver
+2) git checkout v0.4.2
+3) make build
+4) sudo chmod +x ./build/quicksilverd && sudo mv ./build/quicksilverd /usr/local/bin/quicksilverd
+5) sudo systemctl restart quicksilverd
+```
+
+Hepinize kolay gelsin.

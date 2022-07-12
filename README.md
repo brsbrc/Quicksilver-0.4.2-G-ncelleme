@@ -34,7 +34,7 @@ quicksilverd version
 
 Yazdıktan sonra gelen çıktı 0.4.2'yse tamamdır.
 
-Güncellemeyi yaparken "error 127" hatası alanlar için;
+## Güncellemeyi yaparken "error 127" hatası alanlar için;
 ```
 1- cd $HOME
 2-wget -O go1.18.2.linux-amd64.tar.gz https://go.dev/dl/go1.18.2.linux-amd64.tar.gz

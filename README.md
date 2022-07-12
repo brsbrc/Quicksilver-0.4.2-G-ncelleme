@@ -35,7 +35,7 @@ Yazdıktan sonra gelen çıktı 0.4.2'yse tamamdır.
 
 ## Güncellemeyi yaparken "error 127" hatası alanlar ya da go kurulu değil hatası alanlar için
 ```
-1- cd $HOME
+1-cd $HOME
 2-wget -O go1.18.2.linux-amd64.tar.gz https://go.dev/dl/go1.18.2.linux-amd64.tar.gz
 3-rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.2.linux-amd64.tar.gz && rm go1.18.2.linux-amd64.tar.gz
 4-echo 'export GOROOT=/usr/local/go' >> $HOME/.bashrc
@@ -57,13 +57,13 @@ Bu kodları girdikten sonra yeniden güncelleme komutlarından şunlarla devam e
 ## Exit Code hatası alanlar bu komutları kullansın
 
 ```
-rm -rf /usr/local/bin/quicksilverd
-sudo systemctl stop quicksilverd
-cd quicksilver
-git pull
-git checkout v0.4.2
-make install
-sudo systemctl start quicksilverd
+1) rm -rf /usr/local/bin/quicksilverd
+2) sudo systemctl stop quicksilverd
+3) cd quicksilver
+4) git pull
+5) git checkout v0.4.2
+6) make install
+7) sudo systemctl start quicksilverd
 ```
 
 Hepinize kolay gelsin.

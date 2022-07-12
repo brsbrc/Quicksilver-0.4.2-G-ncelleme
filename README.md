@@ -55,5 +55,16 @@ Bu kodları girdikten sonra yeniden güncelleme komutlarından şunlarla devam e
 4) sudo chmod +x ./build/quicksilverd && sudo mv ./build/quicksilverd /usr/local/bin/quicksilverd
 5) sudo systemctl restart quicksilverd
 ```
+## Exit Code hatası alanlar bu komutları kullansın
+
+```
+rm -rf /usr/local/bin/quicksilverd
+sudo systemctl stop quicksilverd
+cd quicksilver
+git pull
+git checkout v0.4.2
+make install
+sudo systemctl start quicksilverd
+```
 
 Hepinize kolay gelsin.

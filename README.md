@@ -66,4 +66,4 @@ Bu kodları girdikten sonra yeniden güncelleme komutlarından şunlarla devam e
 7) systemctl start quicksilverd
 ```
 
-## Hepinize kolay gelsin.
+Hepinize kolay gelsin.

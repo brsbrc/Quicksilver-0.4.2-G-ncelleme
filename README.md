@@ -14,7 +14,7 @@ journalctl -u quicksilverd -f -o cat
 Güncelleme Komutları
 
 ```
-1) sudo systemctl stop quicksilverd
+1) systemctl stop quicksilverd
 2) sudo su
 3) cd
 4) rm -rf quicksilver 
@@ -22,8 +22,8 @@ Güncelleme Komutları
 6) cd quicksilver
 7) git checkout v0.4.2
 8) make build
-9) sudo chmod +x ./build/quicksilverd && sudo mv ./build/quicksilverd /usr/local/bin/quicksilverd
-10) sudo systemctl restart quicksilverd
+9) chmod +x ./build/quicksilverd && sudo mv ./build/quicksilverd /usr/local/bin/quicksilverd
+10) systemctl restart quicksilverd
 ```
 
 Güncellemeyi yaptıktan sonra teyit etmek için;
@@ -51,8 +51,8 @@ Bu kodları girdikten sonra yeniden güncelleme komutlarından şunlarla devam e
 1) cd quicksilver
 2) git checkout v0.4.2
 3) make build
-4) sudo chmod +x ./build/quicksilverd && sudo mv ./build/quicksilverd /usr/local/bin/quicksilverd
-5) sudo systemctl restart quicksilverd
+4) chmod +x ./build/quicksilverd && sudo mv ./build/quicksilverd /usr/local/bin/quicksilverd
+5) systemctl restart quicksilverd
 ```
 ## Exit Code hatası alanlar bu komutları kullansın
 
@@ -63,7 +63,7 @@ Bu kodları girdikten sonra yeniden güncelleme komutlarından şunlarla devam e
 4) git pull
 5) git checkout v0.4.2
 6) make install
-7) sudo systemctl start quicksilverd
+7) systemctl start quicksilverd
 ```
 
 Hepinize kolay gelsin.
